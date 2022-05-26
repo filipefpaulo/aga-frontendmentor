@@ -24,9 +24,9 @@ export default function CardAdvice() {
     <div className="card-content">
       <h1>ADVICE #{advice.id}</h1>
       <p>"{advice.advice}"</p>
-      <img src={PatternDivider} alt="" className="divider" />
+      <img src={PatternDivider} alt="Separator" className="divider" />
       <button onClick={handleClick}>
-        <img src={Dice} alt="" />
+        <img src={Dice} alt="Dice Button" />
       </button>
     </div>
   ) : (
