@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aga-frontendmentor/static/css/main.05d73800.css",
-    "main.js": "/aga-frontendmentor/static/js/main.d301bbd5.js",
+    "main.css": "/aga-frontendmentor/static/css/main.9d4d088b.css",
+    "main.js": "/aga-frontendmentor/static/js/main.d09b50f6.js",
     "index.html": "/aga-frontendmentor/index.html",
     "static/media/icon-dice.svg": "/aga-frontendmentor/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/aga-frontendmentor/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
-    "main.05d73800.css.map": "/aga-frontendmentor/static/css/main.05d73800.css.map",
-    "main.d301bbd5.js.map": "/aga-frontendmentor/static/js/main.d301bbd5.js.map"
+    "main.9d4d088b.css.map": "/aga-frontendmentor/static/css/main.9d4d088b.css.map",
+    "main.d09b50f6.js.map": "/aga-frontendmentor/static/js/main.d09b50f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d73800.css",
-    "static/js/main.d301bbd5.js"
+    "static/css/main.9d4d088b.css",
+    "static/js/main.d09b50f6.js"
   ]
 }
