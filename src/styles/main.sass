@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap')
+
+:root
+  --color-light-cyan: hsl(193, 38%, 86%)
+  --color-neon-green: hsl(150, 100%, 66%)
+  --color-grayish-blue: hsl(217, 19%, 38%)
+  --color-dark-grayish-blue: hsl(217, 19%, 24%)
+  --color-dark-blue: hsl(218, 23%, 16%)
+
+*
+  margin: 0
+  padding: 0
+  font-family: Manrope, sans-serif
+  color: var(--color-light-cyan)
+  font-size: 28px
+  font-weight: 800
+
+.main-content
+  background-color: var(--color-dark-blue)
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+.card-content
+  width: 400px
+  height: fit-content
+  background-color: var(--color-dark-grayish-blue)
+  padding: 20px
+  display: flex
+  flex-direction: column
+  align-items: center
+  border-radius: 20px
+  position: absolute
+
+  @media screen and ( max-width: 375px )
+    width: 310px
+
+  h1
+    color: var(--color-neon-green)
+    font-size: 14px
+    margin-bottom: 25px
+    font-weight: 500
+    letter-spacing: 2px
+
+  p
+    margin-bottom: 25px
+    width: 350px
+    text-align: center
+
+    @media screen and ( max-width: 375px )
+      width: 280px
+
+  .divider
+    margin-bottom: 25px
+    width: 350px
+
+    @media screen and ( max-width: 375px )
+      width: 280px
+
+  button
+    background-color: var(--color-neon-green)
+    border: none
+    border-radius: 50%
+    padding: 14px 14px 11px
+    justify-self: flex-end
+    position: absolute
+    bottom: -20px
+    font-size: 14px
+
+    &:hover
+      cursor: pointer
+      filter: drop-shadow(0 0 20px var(--color-neon-green))
+
+    img
+      width: 15px
